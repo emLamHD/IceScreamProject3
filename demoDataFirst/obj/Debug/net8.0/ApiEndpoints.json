@@ -218,29 +218,19 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "demoDataFirst.Controllers.UsersController",
-    "Method": "GetUser",
-    "RelativePath": "api/Users",
+    "ContainingType": "demoDataFirst.Controllers.UserController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/User",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[demoDataFirst.Models.User, demoDataFirst, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
-    "ContainingType": "demoDataFirst.Controllers.UsersController",
-    "Method": "PostUser",
-    "RelativePath": "api/Users",
+    "ContainingType": "demoDataFirst.Controllers.UserController",
+    "Method": "AddUser",
+    "RelativePath": "api/User",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -251,22 +241,12 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "demoDataFirst.Models.User",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
-    "ContainingType": "demoDataFirst.Controllers.UsersController",
-    "Method": "GetUser",
-    "RelativePath": "api/Users/{id}",
+    "ContainingType": "demoDataFirst.Controllers.UserController",
+    "Method": "GetUserById",
+    "RelativePath": "api/User/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -277,22 +257,12 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "demoDataFirst.Models.User",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
-    "ContainingType": "demoDataFirst.Controllers.UsersController",
-    "Method": "PutUser",
-    "RelativePath": "api/Users/{id}",
+    "ContainingType": "demoDataFirst.Controllers.UserController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/User/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -311,9 +281,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "demoDataFirst.Controllers.UsersController",
+    "ContainingType": "demoDataFirst.Controllers.UserController",
     "Method": "DeleteUser",
-    "RelativePath": "api/Users/{id}",
+    "RelativePath": "api/User/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
