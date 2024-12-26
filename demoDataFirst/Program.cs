@@ -8,6 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using demoDataFirst.Data;
 using demoDataFirst.Repositories;
 using demoDataFirst.Services;
+using demoDataFirst.Models;
 
 namespace demoDataFirst
 {
@@ -24,6 +25,18 @@ namespace demoDataFirst
             builder.Services.AddScoped<IUserService, UserService>();
 
             builder.Services.AddScoped<IRecipeIngredientService, RecipeIngredientService>();
+
+            builder.Services.AddScoped<IPaymentService, PaymentService>();
+
+            builder.Services.AddScoped<IOrderDetailService, OrderDetailService>();
+
+            builder.Services.AddScoped<IProductService, ProductService>();
+
+            builder.Services.AddScoped<IRecipeStepService, RecipeStepService>();
+
+            builder.Services.AddScoped<ITransactionService, TransactionService>();
+
+            builder.Services.AddScoped<IOrderService, OrderService>();
 
             // Add services to the container.
             builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)

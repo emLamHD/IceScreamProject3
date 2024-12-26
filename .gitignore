@@ -43,3 +43,7 @@
 #back-end
 
 /demoDataFirst/appsettings.json
+/demoDataFirst/.vs/
+/demoDataFirst/obj/
+
+

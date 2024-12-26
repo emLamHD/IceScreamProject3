@@ -19,6 +19,9 @@ namespace demoDataFirst.Data
         public DbSet<demoDataFirst.Models.Order> Order { get; set; } = default!;
         public DbSet<demoDataFirst.Models.OrderDetail> OrderDetail { get; set; } = default!;
         public DbSet<demoDataFirst.Models.RecipeIngredient> RecipeIngredients { get; set; } = default!;
-
+        public DbSet<demoDataFirst.Models.Payment> Payments { get; set; } = default!;
+        public DbSet<demoDataFirst.Models.Product> Products { get; set; } = default!;
+        public DbSet<demoDataFirst.Models.RecipeStep> RecipeSteps { get; set; } = default!;
+        public DbSet<demoDataFirst.Models.Transaction> Transactions { get; set; } = default!;
     }
 }
