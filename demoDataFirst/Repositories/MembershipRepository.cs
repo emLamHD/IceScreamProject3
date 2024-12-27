@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace demoDataFirst.Repositories
 {
-    public class MembershipRepository : GenericRepository<Membership>, IMembershipRepository
+    public class MembershipRepository : GenericRepository<Membership>, IGenericRepository<Membership>
     {
         private readonly DbContext _context;
 
@@ -21,7 +21,7 @@ namespace demoDataFirst.Repositories
             return _context.Set<Membership>().ToList();
         }
 
-        public Membership GetById(int id)
+        public Membership GetById(object id)
         {
             return _context.Set<Membership>().Find(id);
         }
@@ -42,7 +42,7 @@ namespace demoDataFirst.Repositories
             _context.Entry(entity).State = EntityState.Modified;
         }
 
-        public void Delete(int id)
+        public void Delete(object id)
         {
             var entity = GetById(id);
             if (entity != null)
