@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Wgyy5p8H6pk=",
+  "dgSpecHash": "M1wx4TyKFb0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\TAM\\source\\repos\\ice_scream_project\\demoDataFirst\\demoDataFirst.csproj",
+  "projectFilePath": "C:\\Users\\TAM\\Desktop\\IceScreamProject3\\demoDataFirst\\demoDataFirst.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TAM\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\TAM\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

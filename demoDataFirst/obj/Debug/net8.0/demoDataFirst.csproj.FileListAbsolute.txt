@@ -614,3 +614,14 @@ C:\Users\TAM\source\repos\ice_scream_project\demoDataFirst\obj\Debug\net8.0\refi
 C:\Users\TAM\source\repos\ice_scream_project\demoDataFirst\obj\Debug\net8.0\demoDataFirst.pdb
 C:\Users\TAM\source\repos\ice_scream_project\demoDataFirst\obj\Debug\net8.0\demoDataFirst.genruntimeconfig.cache
 C:\Users\TAM\source\repos\ice_scream_project\demoDataFirst\obj\Debug\net8.0\ref\demoDataFirst.dll
+C:\Users\TAM\Desktop\IceScreamProject3\demoDataFirst\obj\Debug\net8.0\demoDataFirst.csproj.AssemblyReference.cache
+C:\Users\TAM\Desktop\IceScreamProject3\demoDataFirst\obj\Debug\net8.0\demoDataFirst.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TAM\Desktop\IceScreamProject3\demoDataFirst\obj\Debug\net8.0\demoDataFirst.AssemblyInfoInputs.cache
+C:\Users\TAM\Desktop\IceScreamProject3\demoDataFirst\obj\Debug\net8.0\demoDataFirst.AssemblyInfo.cs
+C:\Users\TAM\Desktop\IceScreamProject3\demoDataFirst\obj\Debug\net8.0\demoDataFirst.csproj.CoreCompileInputs.cache
+C:\Users\TAM\Desktop\IceScreamProject3\demoDataFirst\obj\Debug\net8.0\demoDataFirst.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\TAM\Desktop\IceScreamProject3\demoDataFirst\obj\Debug\net8.0\demoDataFirst.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\TAM\Desktop\IceScreamProject3\demoDataFirst\obj\Debug\net8.0\demoDataFirst.sourcelink.json
+C:\Users\TAM\Desktop\IceScreamProject3\demoDataFirst\obj\Debug\net8.0\demoDataFirst.dll
+C:\Users\TAM\Desktop\IceScreamProject3\demoDataFirst\obj\Debug\net8.0\refint\demoDataFirst.dll
+C:\Users\TAM\Desktop\IceScreamProject3\demoDataFirst\obj\Debug\net8.0\demoDataFirst.pdb

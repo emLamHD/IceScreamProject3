@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TAM\\source\\repos\\ice_scream_project\\demoDataFirst\\demoDataFirst.csproj": {}
+    "C:\\Users\\TAM\\Desktop\\IceScreamProject3\\demoDataFirst\\demoDataFirst.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TAM\\source\\repos\\ice_scream_project\\demoDataFirst\\demoDataFirst.csproj": {
+    "C:\\Users\\TAM\\Desktop\\IceScreamProject3\\demoDataFirst\\demoDataFirst.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TAM\\source\\repos\\ice_scream_project\\demoDataFirst\\demoDataFirst.csproj",
+        "projectUniqueName": "C:\\Users\\TAM\\Desktop\\IceScreamProject3\\demoDataFirst\\demoDataFirst.csproj",
         "projectName": "demoDataFirst",
-        "projectPath": "C:\\Users\\TAM\\source\\repos\\ice_scream_project\\demoDataFirst\\demoDataFirst.csproj",
+        "projectPath": "C:\\Users\\TAM\\Desktop\\IceScreamProject3\\demoDataFirst\\demoDataFirst.csproj",
         "packagesPath": "C:\\Users\\TAM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TAM\\source\\repos\\ice_scream_project\\demoDataFirst\\obj\\",
+        "outputPath": "C:\\Users\\TAM\\Desktop\\IceScreamProject3\\demoDataFirst\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

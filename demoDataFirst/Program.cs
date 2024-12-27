@@ -7,6 +7,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using demoDataFirst.Data;
 using demoDataFirst.Repositories;
+using demoDataFirst.Models;
+using demoDataFirst.Services;
 
 namespace demoDataFirst
 {
@@ -15,10 +17,11 @@ namespace demoDataFirst
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-            builder.Services.AddDbContext<DataContext>(options =>
+            builder.Services.AddDbContext<IceScreamProject3Context>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DataContext") ?? throw new InvalidOperationException("Connection string 'DataContext' not found.")))
 
             builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+            builder.Services.AddScoped<IUserService, UserService>();
 
             // Add services to the container.
             builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
