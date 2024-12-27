@@ -18,8 +18,9 @@ namespace demoDataFirst
         {
             var builder = WebApplication.CreateBuilder(args);
             builder.Services.AddDbContext<IceScreamProject3Context>(options =>
-                options.UseSqlServer(builder.Configuration.GetConnectionString("DataContext") ?? throw new InvalidOperationException("Connection string 'DataContext' not found.")))
-
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DataContext") ?? throw new InvalidOperationException("Connection string 'DataContext' not found.")));
+            
+            // Add services user
             builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             builder.Services.AddScoped<IUserService, UserService>();
 
