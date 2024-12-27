@@ -7,20 +7,48 @@
       "RelativeMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|c:\\users\\admin\\onedrive\\desktop\\icescreamproject3\\demodatafirst\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|solutionrelative:services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|c:\\users\\admin\\onedrive\\desktop\\icescreamproject3\\demodatafirst\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|solutionrelative:services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|c:\\users\\admin\\onedrive\\desktop\\icescreamproject3\\demodatafirst\\services\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|solutionrelative:services\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|c:\\users\\admin\\onedrive\\desktop\\icescreamproject3\\demodatafirst\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|solutionrelative:services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|c:\\users\\admin\\onedrive\\desktop\\icescreamproject3\\demodatafirst\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|c:\\users\\admin\\onedrive\\desktop\\icescreamproject3\\demodatafirst\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|solutionrelative:models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|c:\\users\\admin\\onedrive\\desktop\\icescreamproject3\\demodatafirst\\models\\membership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|solutionrelative:models\\membership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|c:\\users\\admin\\onedrive\\desktop\\icescreamproject3\\demodatafirst\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|c:\\users\\admin\\onedrive\\desktop\\icescreamproject3\\demodatafirst\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|solutionrelative:models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|c:\\users\\admin\\onedrive\\desktop\\icescreamproject3\\demodatafirst\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|solutionrelative:data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|c:\\users\\admin\\onedrive\\desktop\\icescreamproject3\\demodatafirst\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|c:\\users\\admin\\onedrive\\desktop\\icescreamproject3\\demodatafirst\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|solutionrelative:services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|c:\\users\\admin\\onedrive\\desktop\\icescreamproject3\\demodatafirst\\services\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|solutionrelative:services\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|c:\\users\\admin\\onedrive\\desktop\\icescreamproject3\\demodatafirst\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,10 +63,6 @@
       "RelativeMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|solutionrelative:services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|c:\\users\\admin\\onedrive\\desktop\\icescreamproject3\\demodatafirst\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|c:\\users\\admin\\onedrive\\desktop\\icescreamproject3\\demodatafirst\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -49,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|c:\\users\\admin\\onedrive\\desktop\\icescreamproject3\\demodatafirst\\services\\iorderdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|solutionrelative:services\\iorderdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|c:\\users\\admin\\onedrive\\desktop\\icescreamproject3\\demodatafirst\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|solutionrelative:models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|c:\\users\\admin\\onedrive\\desktop\\icescreamproject3\\demodatafirst\\controllers\\orderdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -122,10 +142,6 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TAM\\source\\repos\\demoDataFirst\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|c:\\users\\admin\\onedrive\\desktop\\icescreamproject3\\demodatafirst\\models\\membership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|solutionrelative:models\\membership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|c:\\users\\admin\\onedrive\\desktop\\icescreamproject3\\demodatafirst\\sqlquery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
       "RelativeMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|solutionrelative:sqlquery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
     }
@@ -139,45 +155,6 @@
           "DockedWidth": 200,
           "SelectedChildIndex": 10,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PaymentService.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Services\\PaymentService.cs",
-              "RelativeDocumentMoniker": "Services\\PaymentService.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Services\\PaymentService.cs",
-              "RelativeToolTip": "Services\\PaymentService.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAYwCwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T03:06:51.664Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IPaymentService.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Services\\IPaymentService.cs",
-              "RelativeDocumentMoniker": "Services\\IPaymentService.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Services\\IPaymentService.cs",
-              "RelativeToolTip": "Services\\IPaymentService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T03:06:32.859Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Payment.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Models\\Payment.cs",
-              "RelativeDocumentMoniker": "Models\\Payment.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Models\\Payment.cs",
-              "RelativeToolTip": "Models\\Payment.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAA1wCEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T02:35:59.231Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -196,7 +173,98 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Services\\ProductService.cs",
+              "RelativeToolTip": "Services\\ProductService.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T03:11:52.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Services\\IProductService.cs",
+              "RelativeDocumentMoniker": "Services\\IProductService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Services\\IProductService.cs",
+              "RelativeToolTip": "Services\\IProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T03:11:33.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAYwCcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T03:10:52.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAYwE8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T03:10:28.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Models\\Payment.cs",
+              "RelativeToolTip": "Models\\Payment.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAA1wCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T02:35:59.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Services\\IOrderService.cs",
+              "RelativeDocumentMoniker": "Services\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Services\\IOrderService.cs",
+              "RelativeToolTip": "Services\\IOrderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T03:01:54.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwCEAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T05:16:00.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "PaymentController.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Controllers\\PaymentController.cs",
               "RelativeDocumentMoniker": "Controllers\\PaymentController.cs",
@@ -210,162 +278,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "IOrderService.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Services\\IOrderService.cs",
-              "RelativeDocumentMoniker": "Services\\IOrderService.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Services\\IOrderService.cs",
-              "RelativeToolTip": "Services\\IOrderService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T03:01:54.994Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "RecipeIngredientController.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Controllers\\RecipeIngredientController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RecipeIngredientController.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Controllers\\RecipeIngredientController.cs",
-              "RelativeToolTip": "Controllers\\RecipeIngredientController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T02:35:44.3Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwB8AAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T05:16:00.68Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Repositories\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\GenericRepository.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Repositories\\GenericRepository.cs",
-              "RelativeToolTip": "Repositories\\GenericRepository.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAQwA8AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T11:15:58.773Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DataContext.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Data\\DataContext.cs",
-              "RelativeDocumentMoniker": "Data\\DataContext.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Data\\DataContext.cs",
-              "RelativeToolTip": "Data\\DataContext.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAABVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T11:56:47.51Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Services\\OrderService.cs",
-              "RelativeDocumentMoniker": "Services\\OrderService.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Services\\OrderService.cs",
-              "RelativeToolTip": "Services\\OrderService.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAYwC4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T03:02:14.549Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "Controllers\\OrdersController.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAYwE8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T11:05:09.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "Models\\Order.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Models\\Order.cs",
-              "RelativeToolTip": "Models\\Order.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T11:00:35.813Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "OrderDetailController.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Controllers\\OrderDetailController.cs",
-              "RelativeDocumentMoniker": "Controllers\\OrderDetailController.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Controllers\\OrderDetailController.cs",
-              "RelativeToolTip": "Controllers\\OrderDetailController.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAYwE8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T02:53:40.103Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IOrderDetailService.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Services\\IOrderDetailService.cs",
-              "RelativeDocumentMoniker": "Services\\IOrderDetailService.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Services\\IOrderDetailService.cs",
-              "RelativeToolTip": "Services\\IOrderDetailService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T02:54:02.655Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "OrderDetailService.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Services\\OrderDetailService.cs",
-              "RelativeDocumentMoniker": "Services\\OrderDetailService.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Services\\OrderDetailService.cs",
-              "RelativeToolTip": "Services\\OrderDetailService.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAYwC4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T02:54:26.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IRecipeIngredientService.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Services\\IRecipeIngredientService.cs",
-              "RelativeDocumentMoniker": "Services\\IRecipeIngredientService.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Services\\IRecipeIngredientService.cs",
-              "RelativeToolTip": "Services\\IRecipeIngredientService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T02:36:17.98Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "OrderDetail.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Models\\OrderDetail.cs",
               "RelativeDocumentMoniker": "Models\\OrderDetail.cs",
@@ -378,7 +290,176 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T11:00:35.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Membership.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Models\\Membership.cs",
+              "RelativeDocumentMoniker": "Models\\Membership.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Models\\Membership.cs",
+              "RelativeToolTip": "Models\\Membership.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T13:04:16.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IPaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Services\\IPaymentService.cs",
+              "RelativeDocumentMoniker": "Services\\IPaymentService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Services\\IPaymentService.cs",
+              "RelativeToolTip": "Services\\IPaymentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T03:06:32.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Services\\PaymentService.cs",
+              "RelativeDocumentMoniker": "Services\\PaymentService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Services\\PaymentService.cs",
+              "RelativeToolTip": "Services\\PaymentService.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAYwCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T03:06:51.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Data\\DataContext.cs",
+              "RelativeToolTip": "Data\\DataContext.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:56:47.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RecipeIngredientController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Controllers\\RecipeIngredientController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RecipeIngredientController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Controllers\\RecipeIngredientController.cs",
+              "RelativeToolTip": "Controllers\\RecipeIngredientController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T02:35:44.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "Repositories\\GenericRepository.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T11:15:58.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Services\\OrderService.cs",
+              "RelativeToolTip": "Services\\OrderService.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T03:02:14.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Controllers\\OrdersController.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAYwE8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T11:05:09.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OrderDetailController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Controllers\\OrderDetailController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderDetailController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Controllers\\OrderDetailController.cs",
+              "RelativeToolTip": "Controllers\\OrderDetailController.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAYwE8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T02:53:40.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IOrderDetailService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Services\\IOrderDetailService.cs",
+              "RelativeDocumentMoniker": "Services\\IOrderDetailService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Services\\IOrderDetailService.cs",
+              "RelativeToolTip": "Services\\IOrderDetailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T02:54:02.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OrderDetailService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Services\\OrderDetailService.cs",
+              "RelativeDocumentMoniker": "Services\\OrderDetailService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Services\\OrderDetailService.cs",
+              "RelativeToolTip": "Services\\OrderDetailService.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T02:54:26.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IRecipeIngredientService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Services\\IRecipeIngredientService.cs",
+              "RelativeDocumentMoniker": "Services\\IRecipeIngredientService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Services\\IRecipeIngredientService.cs",
+              "RelativeToolTip": "Services\\IRecipeIngredientService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T02:36:17.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "RecipeIngredientService.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Services\\RecipeIngredientService.cs",
               "RelativeDocumentMoniker": "Services\\RecipeIngredientService.cs",
@@ -391,7 +472,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "RecipeIngredient.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Models\\RecipeIngredient.cs",
               "RelativeDocumentMoniker": "Models\\RecipeIngredient.cs",
@@ -404,7 +485,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "MembershipsController.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Controllers\\MembershipsController.cs",
               "RelativeDocumentMoniker": "Controllers\\MembershipsController.cs",
@@ -417,7 +498,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "Transaction.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Models\\Transaction.cs",
               "RelativeDocumentMoniker": "Models\\Transaction.cs",
@@ -430,7 +511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "RecipeStep.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Models\\RecipeStep.cs",
               "RelativeDocumentMoniker": "Models\\RecipeStep.cs",
@@ -443,7 +524,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -456,7 +537,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 31,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Repositories\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\IGenericRepository.cs",
@@ -468,7 +549,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Services\\IUserService.cs",
               "RelativeDocumentMoniker": "Services\\IUserService.cs",
@@ -480,7 +561,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 32,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
@@ -492,7 +573,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Services\\UserService.cs",
@@ -504,7 +585,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
@@ -517,7 +598,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 33,
               "Title": "IceScreamProject3Context.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Models\\IceScreamProject3Context.cs",
               "RelativeDocumentMoniker": "Models\\IceScreamProject3Context.cs",
@@ -529,7 +610,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 34,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\TAM\\source\\repos\\demoDataFirst\\.gitignore",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\TAM\\source\\repos\\demoDataFirst\\.gitignore",
@@ -540,19 +621,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Membership.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Models\\Membership.cs",
-              "RelativeDocumentMoniker": "Models\\Membership.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\Models\\Membership.cs",
-              "RelativeToolTip": "Models\\Membership.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwCAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T13:04:16.778Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 35,
               "Title": "SQLQuery1.sql",
               "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\SQLQuery1.sql",
               "RelativeDocumentMoniker": "SQLQuery1.sql",
