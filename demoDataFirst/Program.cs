@@ -25,6 +25,8 @@ namespace demoDataFirst
 
             builder.Services.AddScoped<IRecipeIngredientService, RecipeIngredientService>();
 
+            builder.Services.AddScoped<IOrderDetailService, OrderDetailService>();
+
             // Add services to the container.
             builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddMicrosoftIdentityWebApi(builder.Configuration.GetSection("AzureAd"));
