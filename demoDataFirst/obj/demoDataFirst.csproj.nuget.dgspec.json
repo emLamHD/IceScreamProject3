@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TAM\\source\\repos\\ice_scream_project\\demoDataFirst\\demoDataFirst.csproj": {}
+    "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\demoDataFirst.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TAM\\source\\repos\\ice_scream_project\\demoDataFirst\\demoDataFirst.csproj": {
+    "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\demoDataFirst.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TAM\\source\\repos\\ice_scream_project\\demoDataFirst\\demoDataFirst.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\demoDataFirst.csproj",
         "projectName": "demoDataFirst",
-        "projectPath": "C:\\Users\\TAM\\source\\repos\\ice_scream_project\\demoDataFirst\\demoDataFirst.csproj",
-        "packagesPath": "C:\\Users\\TAM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TAM\\source\\repos\\ice_scream_project\\demoDataFirst\\obj\\",
+        "projectPath": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\demoDataFirst.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\IceScreamProject3\\demoDataFirst\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\TAM\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -128,7 +124,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
