@@ -22,5 +22,6 @@ namespace demoDataFirst.Data
         public DbSet<demoDataFirst.Models.Payment> Payments { get; set; } = default!;
         public DbSet<demoDataFirst.Models.Product> Products { get; set; } = default!;
         public DbSet<demoDataFirst.Models.RecipeStep> RecipeSteps { get; set; } = default!;
+        public DbSet<demoDataFirst.Models.Transaction> Transactions { get; set; } = default!;
     }
 }
