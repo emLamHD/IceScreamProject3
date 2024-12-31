@@ -10,7 +10,7 @@ namespace demoDataFirst.Repositories
         Task AddAsync(T entity);
         Task SaveAsync();
         Task UpdateAsync(T entity);
-        void Delete(object id);
+        Task DeleteAsync(object id);
         Task<T?> GetByConditionAsync(Expression<Func<T, bool>> predicate);
     }
 }

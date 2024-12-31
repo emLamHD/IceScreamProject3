@@ -8,7 +8,7 @@ namespace demoDataFirst.Services
         User GetUserById(int id);
         Task CreateAsync(User user);
         Task UpdateUserAsync(User user);
-        void DeleteUser(int id);
+        Task DeleteUserAsync(int id);
         Task<User?> GetUserByEmailAsync(string email);
     }
 }
