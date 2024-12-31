@@ -1,68 +1,82 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using demoDataFirst.Data;
-using demoDataFirst.Models;
+﻿using demoDataFirst.Models;
 using demoDataFirst.Services;
+using Microsoft.AspNetCore.Mvc;
 
 namespace demoDataFirst.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UserController : ControllerBase
+    public class UsersController : ControllerBase
     {
         private readonly IUserService _userService;
-
-        public UserController(IUserService userService)
+        public UsersController(IUserService userService)
         {
             _userService = userService;
         }
 
+        // GET: api/Users
         [HttpGet]
-        public IActionResult GetAllUsers()
+        public ActionResult<IEnumerable<User>> GetAllUsers()
         {
-            var users = _userService.GetAllUsers();
-            return Ok(users);
+            return Ok(_userService.GetAllUsers());
         }
 
+        // GET: api/Users/5
         [HttpGet("{id}")]
-        public IActionResult GetUserById(int id)
+        public ActionResult<User> GetUserById(int id)
         {
             var user = _userService.GetUserById(id);
-            if (user == null) return NotFound();
+
+            if (user == null)
+            {
+                return NotFound();
+            }
+
             return Ok(user);
         }
 
+        // POST: api/Users
         [HttpPost]
-        public IActionResult AddUser(User user)
+        public ActionResult AddUser([FromBody] User user)
         {
-            try
+            if (!ModelState.IsValid)
             {
-                _userService.AddUser(user);
-                return CreatedAtAction(nameof(GetUserById), new { id = user.UserId }, user);
+                return BadRequest(ModelState);
             }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
+
+            _userService.AddUser(user);
+            return CreatedAtAction(nameof(GetUserById), new { id = user.UserId }, user);
         }
 
+        // PUT: api/Users/5
         [HttpPut("{id}")]
-        public IActionResult UpdateUser(int id, User user)
+        public ActionResult UpdateUser(int id, [FromBody] User user)
         {
-            if (id != user.UserId) return BadRequest();
+            if (id != user.UserId)
+            {
+                return BadRequest("ID mismatch.");
+            }
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
 
             _userService.UpdateUser(user);
             return NoContent();
         }
 
+        // DELETE: api/Users/5
         [HttpDelete("{id}")]
-        public IActionResult DeleteUser(int id)
+        public ActionResult DeleteUser(int id)
         {
+            var user = _userService.GetUserById(id);
+
+            if (user == null)
+            {
+                return NotFound();
+            }
+
             _userService.DeleteUser(id);
             return NoContent();
         }

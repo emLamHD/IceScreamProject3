@@ -15,27 +15,24 @@ public partial class IceScreamProject3Context : DbContext
     {
     }
 
-    public virtual DbSet<Membership> Memberships { get; set; }
 
-    public virtual DbSet<Order> Orders { get; set; }
+    public virtual DbSet<demoDataFirst.Models.Membership> Membership { get; set; } = default!;
 
-    public virtual DbSet<OrderDetail> OrderDetails { get; set; }
+    public virtual DbSet<demoDataFirst.Models.Order> Orders { get; set; }
 
-    public virtual DbSet<Payment> Payments { get; set; }
+    public virtual DbSet<demoDataFirst.Models.OrderDetail> OrderDetails { get; set; }
 
-    public virtual DbSet<Product> Products { get; set; }
+    public virtual DbSet<demoDataFirst.Models.Payment> Payments { get; set; }
 
-    public virtual DbSet<RecipeIngredient> RecipeIngredients { get; set; }
+    public virtual DbSet<demoDataFirst.Models.Product> Products { get; set; }
 
-    public virtual DbSet<RecipeStep> RecipeSteps { get; set; }
+    public virtual DbSet<demoDataFirst.Models.RecipeIngredient> RecipeIngredients { get; set; }
 
-    public virtual DbSet<Transaction> Transactions { get; set; }
+    public virtual DbSet<demoDataFirst.Models.RecipeStep> RecipeSteps { get; set; }
 
-    public virtual DbSet<User> Users { get; set; }
+    public virtual DbSet<demoDataFirst.Models.Transaction> Transactions { get; set; }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=DESKTOP-4QIDTJB\\MSSQSERVER_2;Database=ice_scream_project_3;Trusted_Connection=True;TrustServerCertificate=True\n");
+    public virtual DbSet<demoDataFirst.Models.User> Users { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

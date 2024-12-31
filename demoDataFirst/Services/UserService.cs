@@ -1,16 +1,12 @@
 ﻿using demoDataFirst.Models;
 using demoDataFirst.Repositories;
+using Microsoft.AspNetCore.Identity;
 
 namespace demoDataFirst.Services
 {
-    public class UserService : IUserService
+    public class UserService(IGenericRepository<User> userRepository) : IUserService
     {
-        private readonly IGenericRepository<User> _userRepository;
-
-        public UserService(IGenericRepository<User> userRepository)
-        {
-            _userRepository = userRepository;
-        }
+        private readonly IGenericRepository<User> _userRepository = userRepository;
 
         public IEnumerable<User> GetAllUsers()
         {
@@ -24,12 +20,6 @@ namespace demoDataFirst.Services
 
         public void AddUser(User user)
         {
-            // Thêm logic nghiệp vụ nếu cần, ví dụ: kiểm tra email trùng lặp
-            if (_userRepository.Find(u => u.Email == user.Email).Any())
-            {
-                throw new Exception("Email đã tồn tại.");
-            }
-
             _userRepository.Add(user);
             _userRepository.Save();
         }
@@ -45,5 +35,6 @@ namespace demoDataFirst.Services
             _userRepository.Delete(id);
             _userRepository.Save();
         }
+
     }
 }
