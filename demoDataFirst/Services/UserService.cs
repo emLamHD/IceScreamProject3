@@ -36,10 +36,10 @@ namespace demoDataFirst.Services
         }
 
 
-        public void UpdateUser(User user)
+        public async Task UpdateUserAsync(User user)
         {
-            _userRepository.Update(user);
-            _userRepository.SaveAsync();
+            _userRepository.UpdateAsync(user); // Cập nhật thông tin user
+            await _userRepository.SaveAsync(); // Lưu thay đổi xuống cơ sở dữ liệu
         }
 
         public void DeleteUser(int id)

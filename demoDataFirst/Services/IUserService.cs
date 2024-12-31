@@ -7,7 +7,7 @@ namespace demoDataFirst.Services
         IEnumerable<User> GetAllUsers();
         User GetUserById(int id);
         Task CreateAsync(User user);
-        void UpdateUser(User user);
+        Task UpdateUserAsync(User user);
         void DeleteUser(int id);
         Task<User?> GetUserByEmailAsync(string email);
     }

@@ -61,7 +61,7 @@ namespace demoDataFirst.Controllers
         {
             if (id != user.UserId) return BadRequest();
 
-            _userService.UpdateUser(user);
+            _userService.UpdateUserAsync(user);
             return NoContent();
         }
 
