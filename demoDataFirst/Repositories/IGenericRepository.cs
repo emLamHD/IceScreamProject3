@@ -9,7 +9,7 @@ namespace demoDataFirst.Repositories
         IEnumerable<T> Find(Expression<Func<T, bool>> predicate);
         Task AddAsync(T entity);
         Task SaveAsync();
-        void Update(T entity);
+        Task UpdateAsync(T entity);
         void Delete(object id);
         Task<T?> GetByConditionAsync(Expression<Func<T, bool>> predicate);
     }

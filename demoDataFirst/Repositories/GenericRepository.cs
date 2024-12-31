@@ -35,10 +35,11 @@ namespace demoDataFirst.Repositories
             await _dbSet.AddAsync(entity);
         }
 
-        public void Update(T entity)
+        public async Task UpdateAsync(T entity)
         {
-            _dbSet.Attach(entity);
-            _context.Entry(entity).State = EntityState.Modified;
+            _dbSet.Attach(entity); // Gắn thực thể vào DbSet
+            _context.Entry(entity).State = EntityState.Modified; // Đánh dấu thực thể là "Modified"
+            await _context.SaveChangesAsync(); // Lưu thay đổi xuống cơ sở dữ liệu
         }
 
         public void Delete(object id)

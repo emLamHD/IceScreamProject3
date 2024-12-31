@@ -61,8 +61,8 @@ namespace demoDataFirst.Controllers
         {
             if (id != user.UserId) return BadRequest();
 
-            _userService.UpdateUser(user);
-            return NoContent();
+            _userService.UpdateUserAsync(user);
+            return Ok("User updated successfully");
         }
 
         [HttpDelete("{id}")]
