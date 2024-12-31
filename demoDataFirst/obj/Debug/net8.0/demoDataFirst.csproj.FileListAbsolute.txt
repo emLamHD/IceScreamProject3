@@ -922,3 +922,4 @@ C:\Users\TAM\Desktop\IceScreamProject3\demoDataFirst\obj\Debug\net8.0\scopedcss\
 C:\Users\TAM\Desktop\IceScreamProject3\demoDataFirst\obj\Debug\net8.0\demoData.9916CC35.Up2Date
 C:\Users\TAM\Desktop\IceScreamProject3\demoDataFirst\obj\Debug\net8.0\demoDataFirst.genruntimeconfig.cache
 C:\Users\TAM\Desktop\IceScreamProject3\demoDataFirst\obj\Debug\net8.0\ref\demoDataFirst.dll
+C:\Users\TAM\Desktop\IceScreamProject3\demoDataFirst\bin\Debug\net8.0\BCrypt.Net-Next.dll

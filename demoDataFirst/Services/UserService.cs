@@ -22,28 +22,36 @@ namespace demoDataFirst.Services
             return _userRepository.GetById(id);
         }
 
-        public void AddUser(User user)
+        public async Task CreateAsync(User user)
         {
-            // Thêm logic nghiệp vụ nếu cần, ví dụ: kiểm tra email trùng lặp
-            if (_userRepository.Find(u => u.Email == user.Email).Any())
+            // Kiểm tra email trùng lặp
+            var existingUser = await _userRepository.GetByConditionAsync(u => u.Email == user.Email);
+            if (existingUser != null) // Chỉ cần kiểm tra khác null
             {
                 throw new Exception("Email đã tồn tại.");
             }
 
-            _userRepository.Add(user);
-            _userRepository.Save();
+            await _userRepository.AddAsync(user);
+            await _userRepository.SaveAsync();
         }
+
 
         public void UpdateUser(User user)
         {
             _userRepository.Update(user);
-            _userRepository.Save();
+            _userRepository.SaveAsync();
         }
 
         public void DeleteUser(int id)
         {
             _userRepository.Delete(id);
-            _userRepository.Save();
+            _userRepository.SaveAsync();
         }
+
+        public async Task<User?> GetUserByEmailAsync(string email)
+        {
+            return await _userRepository.GetByConditionAsync(u => u.Email == email);
+        }
+
     }
 }

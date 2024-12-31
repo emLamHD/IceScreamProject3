@@ -6,8 +6,9 @@ namespace demoDataFirst.Services
     {
         IEnumerable<User> GetAllUsers();
         User GetUserById(int id);
-        void AddUser(User user);
+        Task CreateAsync(User user);
         void UpdateUser(User user);
         void DeleteUser(int id);
+        Task<User?> GetUserByEmailAsync(string email);
     }
 }

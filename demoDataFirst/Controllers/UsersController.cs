@@ -8,6 +8,9 @@ using Microsoft.EntityFrameworkCore;
 using demoDataFirst.Data;
 using demoDataFirst.Models;
 using demoDataFirst.Services;
+using Microsoft.CodeAnalysis.Scripting;
+using demoDataFirst.DTO;
+using BCrypt.Net;
 
 namespace demoDataFirst.Controllers
 {
@@ -16,10 +19,12 @@ namespace demoDataFirst.Controllers
     public class UserController : ControllerBase
     {
         private readonly IUserService _userService;
+        private readonly IAuthService _authService;
 
-        public UserController(IUserService userService)
+        public UserController(IUserService userService, IAuthService authService)
         {
             _userService = userService;
+            _authService = authService;
         }
 
         [HttpGet]
@@ -38,11 +43,11 @@ namespace demoDataFirst.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddUser(User user)
+        public async Task<IActionResult> AddUser(User user)
         {
             try
             {
-                _userService.AddUser(user);
+                await _userService.CreateAsync(user);
                 return CreatedAtAction(nameof(GetUserById), new { id = user.UserId }, user);
             }
             catch (Exception ex)
@@ -65,6 +70,35 @@ namespace demoDataFirst.Controllers
         {
             _userService.DeleteUser(id);
             return NoContent();
+        }
+
+        //Authentication
+        [HttpPost("register")]
+        public async Task<IActionResult> Register(UserRegisterDto dto)
+        {
+            var hashedPassword = BCrypt.Net.BCrypt.HashPassword(dto.Password);
+            var newUser = new User
+            {
+                FullName = dto.FullName,
+                Email = dto.Email,
+                PasswordHash = hashedPassword
+            };
+
+            await _userService.CreateAsync(newUser);
+            return Ok("User registered successfully");
+        }
+
+        [HttpPost("login")]
+        public async Task<IActionResult> Login(UserLoginDto dto)
+        {
+            var user = await _authService.Authenticate(dto.Email, dto.Password);
+            if (user == null)
+            {
+                return Unauthorized("Invalid credentials");
+            }
+
+            var token = _authService.GenerateJwtToken(user);
+            return Ok(new { Token = token });
         }
     }
 }

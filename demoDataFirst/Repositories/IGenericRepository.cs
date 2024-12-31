@@ -7,9 +7,10 @@ namespace demoDataFirst.Repositories
         IEnumerable<T> GetAll();
         T GetById(object id);
         IEnumerable<T> Find(Expression<Func<T, bool>> predicate);
-        void Add(T entity);
+        Task AddAsync(T entity);
+        Task SaveAsync();
         void Update(T entity);
         void Delete(object id);
-        void Save();
+        Task<T?> GetByConditionAsync(Expression<Func<T, bool>> predicate);
     }
 }

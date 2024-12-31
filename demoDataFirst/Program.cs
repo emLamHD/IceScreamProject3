@@ -9,6 +9,8 @@ using demoDataFirst.Data;
 using demoDataFirst.Repositories;
 using demoDataFirst.Models;
 using demoDataFirst.Services;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 namespace demoDataFirst
 {
@@ -22,12 +24,33 @@ namespace demoDataFirst
             
             // Add GenericRepositories
             builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+            
             // Add services user
             builder.Services.AddScoped<IUserService, UserService>();
+            // Add service Authentication
+            builder.Services.AddScoped<IAuthService, AuthService>();
 
-            // Add services to the container.
-            builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-                .AddMicrosoftIdentityWebApi(builder.Configuration.GetSection("AzureAd"));
+            //Authentication
+            builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("Jwt"));
+            builder.Services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            })
+            .AddJwtBearer(options =>
+            {
+                var jwtSettings = builder.Configuration.GetSection("Jwt").Get<JwtSettings>();
+                options.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuer = true,
+                    ValidateAudience = true,
+                    ValidateLifetime = true,
+                    ValidateIssuerSigningKey = true,
+                    ValidIssuer = jwtSettings.Issuer,
+                    ValidAudience = jwtSettings.Audience,
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings.Key))
+                };
+            });
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

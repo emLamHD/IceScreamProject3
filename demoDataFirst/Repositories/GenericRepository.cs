@@ -30,9 +30,9 @@ namespace demoDataFirst.Repositories
             return _dbSet.Where(predicate).ToList();
         }
 
-        public void Add(T entity)
+        public async Task AddAsync(T entity)
         {
-            _dbSet.Add(entity);
+            await _dbSet.AddAsync(entity);
         }
 
         public void Update(T entity)
@@ -50,9 +50,14 @@ namespace demoDataFirst.Repositories
             }
         }
 
-        public void Save()
+        public async Task SaveAsync()
         {
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
         }
+        public async Task<T?> GetByConditionAsync(Expression<Func<T, bool>> predicate)
+        {
+            return await _dbSet.FirstOrDefaultAsync(predicate);
+        }
+
     }
 }
