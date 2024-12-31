@@ -42,10 +42,9 @@ namespace demoDataFirst.Services
             await _userRepository.SaveAsync(); // Lưu thay đổi xuống cơ sở dữ liệu
         }
 
-        public void DeleteUser(int id)
+        public async Task DeleteUserAsync(int id)
         {
-            _userRepository.Delete(id);
-            _userRepository.SaveAsync();
+            await _userRepository.DeleteAsync(id);  // Gọi phương thức DeleteAsync của repository để xóa người dùng
         }
 
         public async Task<User?> GetUserByEmailAsync(string email)

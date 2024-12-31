@@ -66,10 +66,10 @@ namespace demoDataFirst.Controllers
         }
 
         [HttpDelete("{id}")]
-        public IActionResult DeleteUser(int id)
+        public async Task<IActionResult> DeleteUser(int id)
         {
-            _userService.DeleteUser(id);
-            return NoContent();
+            await _userService.DeleteUserAsync(id);  // Gọi phương thức DeleteUserAsync bất đồng bộ
+            return Ok("User deleted successfully");  // Trả về NoContent khi xóa thành công
         }
 
         //Authentication

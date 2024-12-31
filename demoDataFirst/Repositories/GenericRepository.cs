@@ -42,12 +42,13 @@ namespace demoDataFirst.Repositories
             await _context.SaveChangesAsync(); // Lưu thay đổi xuống cơ sở dữ liệu
         }
 
-        public void Delete(object id)
+        public async Task DeleteAsync(object id)
         {
-            var entity = _dbSet.Find(id);
+            var entity = await _dbSet.FindAsync(id);  // Tìm kiếm entity bất đồng bộ
             if (entity != null)
             {
-                _dbSet.Remove(entity);
+                _dbSet.Remove(entity);  // Xóa entity
+                await _context.SaveChangesAsync();  // Lưu thay đổi bất đồng bộ
             }
         }
 
