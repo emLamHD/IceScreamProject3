@@ -27,6 +27,8 @@ namespace demoDataFirst
             
             // Add services user
             builder.Services.AddScoped<IUserService, UserService>();
+            // Add services transaction
+            builder.Services.AddScoped<ITransactionService, TransactionService>();
             // Add service Authentication
             builder.Services.AddScoped<IAuthService, AuthService>();
 
