@@ -29,7 +29,8 @@ namespace demoDataFirst
             builder.Services.AddScoped<IUserService, UserService>();
             // Add service Authentication
             builder.Services.AddScoped<IAuthService, AuthService>();
-
+            // Add service OrderService
+            builder.Services.AddScoped<IOrderService, OrderService>();
             //Authentication
             builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("Jwt"));
             builder.Services.AddAuthentication(options =>
