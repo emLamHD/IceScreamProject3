@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\IceScreamProject3\\demoDataFirst\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|d:\\icescreamproject3\\demodatafirst\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|solutionrelative:models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|d:\\icescreamproject3\\demodatafirst\\controllers\\membershipscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|solutionrelative:controllers\\membershipscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -62,10 +66,6 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TAM\\source\\repos\\demoDataFirst\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|d:\\icescreamproject3\\demodatafirst\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|solutionrelative:models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|d:\\icescreamproject3\\demodatafirst\\models\\recipestep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44CDD20D-1B15-4F38-9BF6-0C4CD91CEFB5}|demoDataFirst.csproj|solutionrelative:models\\recipestep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -89,11 +89,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MembershipsController.cs",
               "DocumentMoniker": "D:\\IceScreamProject3\\demoDataFirst\\Controllers\\MembershipsController.cs",
               "RelativeDocumentMoniker": "Controllers\\MembershipsController.cs",
@@ -107,19 +107,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "D:\\IceScreamProject3\\demoDataFirst\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
-              "ToolTip": "D:\\IceScreamProject3\\demoDataFirst\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "Controllers\\UsersController.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAAAEMAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T02:35:31.03Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "MembershipService.cs",
               "DocumentMoniker": "D:\\IceScreamProject3\\demoDataFirst\\Services\\MembershipService.cs",
               "RelativeDocumentMoniker": "Services\\MembershipService.cs",
@@ -127,12 +114,11 @@
               "RelativeToolTip": "Services\\MembershipService.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAmwDwAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T02:24:38.486Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-01T02:24:38.486Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\IceScreamProject3\\demoDataFirst\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Services\\UserService.cs",
@@ -140,12 +126,11 @@
               "RelativeToolTip": "Services\\UserService.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAkwCwAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T02:27:04.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-01T02:27:04.154Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "IUserService.cs",
               "DocumentMoniker": "D:\\IceScreamProject3\\demoDataFirst\\Services\\IUserService.cs",
               "RelativeDocumentMoniker": "Services\\IUserService.cs",
@@ -153,12 +138,11 @@
               "RelativeToolTip": "Services\\IUserService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T02:27:21.286Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-01T02:27:21.286Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "D:\\IceScreamProject3\\demoDataFirst\\Repositories\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\IGenericRepository.cs",
@@ -166,12 +150,11 @@
               "RelativeToolTip": "Repositories\\IGenericRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T02:25:08.459Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-01T02:25:08.459Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "IMembershipService.cs",
               "DocumentMoniker": "D:\\IceScreamProject3\\demoDataFirst\\Services\\IMembershipService.cs",
               "RelativeDocumentMoniker": "Services\\IMembershipService.cs",
@@ -179,12 +162,11 @@
               "RelativeToolTip": "Services\\IMembershipService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T02:23:15.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-01T02:23:15.357Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "UserLoginDto.cs",
               "DocumentMoniker": "D:\\IceScreamProject3\\demoDataFirst\\DTO\\UserLoginDto.cs",
               "RelativeDocumentMoniker": "DTO\\UserLoginDto.cs",
@@ -196,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\IceScreamProject3\\demoDataFirst\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
@@ -208,7 +190,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "D:\\IceScreamProject3\\demoDataFirst\\Models\\Transaction.cs",
+              "RelativeDocumentMoniker": "Models\\Transaction.cs",
+              "ToolTip": "D:\\IceScreamProject3\\demoDataFirst\\Models\\Transaction.cs",
+              "RelativeToolTip": "Models\\Transaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T12:50:15.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\IceScreamProject3\\demoDataFirst\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "D:\\IceScreamProject3\\demoDataFirst\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAAEMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T02:35:31.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "JwtSettings .cs",
               "DocumentMoniker": "D:\\IceScreamProject3\\demoDataFirst\\JwtSettings .cs",
               "RelativeDocumentMoniker": "JwtSettings .cs",
@@ -220,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "DataContext.cs",
               "DocumentMoniker": "D:\\IceScreamProject3\\demoDataFirst\\Data\\DataContext.cs",
               "RelativeDocumentMoniker": "Data\\DataContext.cs",
@@ -232,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "OrderDetail.cs",
               "DocumentMoniker": "D:\\IceScreamProject3\\demoDataFirst\\Models\\OrderDetail.cs",
               "RelativeDocumentMoniker": "Models\\OrderDetail.cs",
@@ -244,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "IceScreamProject3Context.cs",
               "DocumentMoniker": "D:\\IceScreamProject3\\demoDataFirst\\Models\\IceScreamProject3Context.cs",
               "RelativeDocumentMoniker": "Models\\IceScreamProject3Context.cs",
@@ -256,24 +263,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\TAM\\source\\repos\\demoDataFirst\\.gitignore",
               "ToolTip": "C:\\Users\\TAM\\source\\repos\\demoDataFirst\\.gitignore",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-12-17T13:09:47.431Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Transaction.cs",
-              "DocumentMoniker": "D:\\IceScreamProject3\\demoDataFirst\\Models\\Transaction.cs",
-              "RelativeDocumentMoniker": "Models\\Transaction.cs",
-              "ToolTip": "D:\\IceScreamProject3\\demoDataFirst\\Models\\Transaction.cs",
-              "RelativeToolTip": "Models\\Transaction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T12:50:15.568Z"
             },
             {
               "$type": "Document",
@@ -289,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Order.cs",
               "DocumentMoniker": "D:\\IceScreamProject3\\demoDataFirst\\Models\\Order.cs",
               "RelativeDocumentMoniker": "Models\\Order.cs",
