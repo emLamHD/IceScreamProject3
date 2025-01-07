@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Authentication;
+﻿using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Identity.Abstractions;
 using Microsoft.Identity.Web;
@@ -43,6 +43,14 @@ namespace demoDataFirst
             builder.Services.AddScoped<IMembershipService, MembershipService>();
             // Add Service Transaction
             builder.Services.AddScoped<ITransactionService, TransactionService>();
+            //CORS
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowSpecificOrigin",
+                    policy => policy.WithOrigins("http://localhost:3000") // Thay domain này bằng domain của Next.js
+                                    .AllowAnyHeader()
+                                    .AllowAnyMethod());
+            });
             //Authentication
             builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("Jwt"));
             builder.Services.AddAuthentication(options =>
@@ -78,7 +86,7 @@ namespace demoDataFirst
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-
+            app.UseCors("AllowSpecificOrigin");
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
