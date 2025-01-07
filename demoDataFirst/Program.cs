@@ -39,6 +39,8 @@ namespace demoDataFirst
             builder.Services.AddScoped<IRecipeIngredientService, RecipeIngredientService>();
             // Add Service RecipeStep
             builder.Services.AddScoped<IRecipeStepService, RecipeStepService>();
+            // Add Service Membership
+            builder.Services.AddScoped<IMembershipService, MembershipService>();
             //Authentication
             builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("Jwt"));
             builder.Services.AddAuthentication(options =>
