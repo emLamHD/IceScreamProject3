@@ -12,5 +12,6 @@ namespace demoDataFirst.Services
         Task<User?> GetUserByEmailAsync(string email);
 
         Task<bool> UpdateAvatarAsync(int userId, string? avatarUrl);
+        Task<User?> GetCurrentUserAsync(int userId);
     }
 }

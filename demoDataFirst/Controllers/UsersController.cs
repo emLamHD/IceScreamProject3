@@ -11,6 +11,12 @@ using demoDataFirst.Services;
 using Microsoft.CodeAnalysis.Scripting;
 using demoDataFirst.DTO;
 using BCrypt.Net;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 
 namespace demoDataFirst.Controllers
 {
@@ -89,17 +95,43 @@ namespace demoDataFirst.Controllers
         }
 
         [HttpPost("login")]
-        public async Task<IActionResult> Login(UserLoginDto dto)
+        public async Task<IActionResult> Login(UserLoginDto dto, [FromServices] IOptions<JwtSettings> jwtSettings)
         {
             var user = await _authService.Authenticate(dto.Email, dto.Password);
             if (user == null)
             {
-                return Unauthorized("Invalid credentials");
+                return Unauthorized("Thông tin đăng nhập không chính xác.");
             }
 
-            var token = _authService.GenerateJwtToken(user);
-            return Ok(new { Token = token });
+            var settings = jwtSettings.Value;
+            var claims = new[]
+            {
+                new Claim("id", user.UserId.ToString()), // Thêm UserId vào token
+                new Claim(JwtRegisteredClaimNames.Email, user.Email),
+                new Claim(JwtRegisteredClaimNames.Sub, user.FullName),
+                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+            };
+
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(settings.Key));
+            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+            var token = new JwtSecurityToken(
+                issuer: settings.Issuer,
+                audience: settings.Audience,
+                claims: claims,
+                expires: DateTime.UtcNow.AddMinutes(settings.ExpiryMinutes),
+                signingCredentials: creds
+            );
+
+            var tokenString = new JwtSecurityTokenHandler().WriteToken(token);
+
+            return Ok(new
+            {
+                Token = tokenString,
+                Expiration = token.ValidTo
+            });
         }
+
 
         [HttpPost("{userId}/upload-avatar")]
         public async Task<IActionResult> UploadAvatar(int userId, IFormFile? avatarFile)
@@ -148,6 +180,41 @@ namespace demoDataFirst.Controllers
             {
                 return StatusCode(500, ex.Message);
             }
+        }
+
+        [Authorize]
+        [HttpGet("me")]
+        public async Task<IActionResult> GetCurrentUser()
+        {
+            // Lấy userId từ claims của JWT token
+            var userIdClaim = User.Claims.FirstOrDefault(c => c.Type == "id");
+            if (userIdClaim == null)
+            {
+                return Unauthorized("Không thể xác định người dùng hiện tại.");
+            }
+
+            if (!int.TryParse(userIdClaim.Value, out var userId))
+            {
+                return BadRequest("UserId không hợp lệ trong token.");
+            }
+
+            // Lấy thông tin người dùng từ database
+            var user = await _userService.GetCurrentUserAsync(userId);
+            if (user == null)
+            {
+                return NotFound("Người dùng không tồn tại.");
+            }
+
+            // Trả về thông tin người dùng
+            return Ok(new
+            {
+                user.UserId,
+                user.FullName,
+                user.Email,
+                user.Avatar,
+                user.LoginProvider,
+                user.Balance
+            });
         }
 
     }

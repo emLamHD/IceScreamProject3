@@ -61,6 +61,8 @@ namespace demoDataFirst
             .AddJwtBearer(options =>
             {
                 var jwtSettings = builder.Configuration.GetSection("Jwt").Get<JwtSettings>();
+                var key = Encoding.UTF8.GetBytes(jwtSettings.Key);
+
                 options.TokenValidationParameters = new TokenValidationParameters
                 {
                     ValidateIssuer = true,
@@ -69,7 +71,7 @@ namespace demoDataFirst
                     ValidateIssuerSigningKey = true,
                     ValidIssuer = jwtSettings.Issuer,
                     ValidAudience = jwtSettings.Audience,
-                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings.Key))
+                    IssuerSigningKey = new SymmetricSecurityKey(key)
                 };
             });
 
@@ -89,7 +91,7 @@ namespace demoDataFirst
             app.UseStaticFiles();
             app.UseCors("AllowSpecificOrigin");
             app.UseHttpsRedirection();
-
+            app.UseAuthentication();
             app.UseAuthorization();
 
 

@@ -1,5 +1,7 @@
 ﻿using demoDataFirst.Models;
 using demoDataFirst.Repositories;
+using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace demoDataFirst.Services
 {
@@ -69,6 +71,11 @@ namespace demoDataFirst.Services
 
             await _userRepository.UpdateAsync(user); // Lưu thay đổi vào cơ sở dữ liệu
             return true;
+        }
+
+        public async Task<User?> GetCurrentUserByIdAsync(int userId)
+        {
+            return await _userRepository.GetByConditionAsync(u => u.UserId == userId);
         }
 
     }
