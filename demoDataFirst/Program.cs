@@ -86,6 +86,7 @@ namespace demoDataFirst
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
+            app.UseStaticFiles();
             app.UseCors("AllowSpecificOrigin");
             app.UseHttpsRedirection();
 

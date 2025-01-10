@@ -100,5 +100,55 @@ namespace demoDataFirst.Controllers
             var token = _authService.GenerateJwtToken(user);
             return Ok(new { Token = token });
         }
+
+        [HttpPost("{userId}/upload-avatar")]
+        public async Task<IActionResult> UploadAvatar(int userId, IFormFile? avatarFile)
+        {
+            if (avatarFile == null || avatarFile.Length == 0)
+            {
+                return BadRequest("File không hợp lệ.");
+            }
+
+            // Kiểm tra định dạng file
+            var allowedExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif" };
+            var fileExtension = Path.GetExtension(avatarFile.FileName).ToLower();
+            if (!allowedExtensions.Contains(fileExtension))
+            {
+                return BadRequest("Chỉ chấp nhận các file định dạng JPG, JPEG, PNG hoặc GIF.");
+            }
+
+            // Tạo đường dẫn lưu file
+            var uniqueFileName = $"{Guid.NewGuid()}{fileExtension}";
+            var uploadPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads/avatars");
+
+            // Tạo thư mục nếu chưa tồn tại
+            if (!Directory.Exists(uploadPath))
+            {
+                Directory.CreateDirectory(uploadPath);
+            }
+
+            var filePath = Path.Combine(uploadPath, uniqueFileName);
+
+            // Lưu file vào server
+            using (var fileStream = new FileStream(filePath, FileMode.Create))
+            {
+                await avatarFile.CopyToAsync(fileStream);
+            }
+
+            // Đường dẫn lưu file trong server
+            var avatarUrl = $"/uploads/avatars/{uniqueFileName}";
+
+            try
+            {
+                // Gọi service để cập nhật avatar
+                await _userService.UpdateAvatarAsync(userId, avatarUrl);
+                return Ok(new { message = "Avatar đã được cập nhật thành công.", avatarUrl });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
+        }
+
     }
 }

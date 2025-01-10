@@ -52,5 +52,24 @@ namespace demoDataFirst.Services
             return await _userRepository.GetByConditionAsync(u => u.Email == email);
         }
 
+        public async Task<bool> UpdateAvatarAsync(int userId, string? avatarUrl)
+        {
+            // Lấy thông tin user
+            var user = await _userRepository.GetByConditionAsync(u => u.UserId == userId);
+            if (user == null)
+            {
+                throw new Exception("User không tồn tại.");
+            }
+
+            // Nếu avatarUrl là null hoặc rỗng, giữ nguyên avatar cũ
+            if (!string.IsNullOrWhiteSpace(avatarUrl))
+            {
+                user.Avatar = avatarUrl; // Cập nhật avatar mới
+            }
+
+            await _userRepository.UpdateAsync(user); // Lưu thay đổi vào cơ sở dữ liệu
+            return true;
+        }
+
     }
 }

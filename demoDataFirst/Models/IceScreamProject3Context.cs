@@ -165,17 +165,23 @@ public partial class IceScreamProject3Context : DbContext
             entity.HasIndex(e => e.Email, "UQ__users__A9D10534828305E5").IsUnique();
 
             entity.Property(e => e.UserId).HasColumnName("UserID");
+            entity.Property(e => e.FullName).HasMaxLength(100);
+            entity.Property(e => e.Email).HasMaxLength(255);
+            entity.Property(e => e.PasswordHash).HasMaxLength(255);
+            entity.Property(e => e.LoginProvider).HasMaxLength(50);
             entity.Property(e => e.Balance)
                 .HasDefaultValue(0m)
                 .HasColumnType("decimal(18, 2)");
             entity.Property(e => e.CreatedAt)
                 .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime");
-            entity.Property(e => e.Email).HasMaxLength(255);
-            entity.Property(e => e.FullName).HasMaxLength(100);
-            entity.Property(e => e.LoginProvider).HasMaxLength(50);
-            entity.Property(e => e.PasswordHash).HasMaxLength(255);
+            entity.Property(e => e.Role)
+                .HasMaxLength(50)
+                .HasDefaultValue("user");
+            entity.Property(e => e.Avatar)
+                .HasMaxLength(255);
         });
+
 
         OnModelCreatingPartial(modelBuilder);
     }
