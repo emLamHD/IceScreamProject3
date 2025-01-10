@@ -9,5 +9,6 @@ namespace demoDataFirst.Services
         Task CreateProductAsync(Product product);
         Task UpdateProductAsync(Product product);
         Task DeleteProductAsync(int id);
+        Task<bool> UpdateProductImagesAsync(int productId, string imageUrls);
     }
 }
