@@ -112,6 +112,9 @@ public partial class IceScreamProject3Context : DbContext
             entity.Property(e => e.RetailPrice).HasColumnType("decimal(18, 2)");
             entity.Property(e => e.Stock).HasDefaultValue(0);
             entity.Property(e => e.WholesalePrice).HasColumnType("decimal(18, 2)");
+            entity.Property(e => e.Image)
+               .HasMaxLength(255)  // Độ dài tối đa của đường dẫn hình ảnh
+               .HasColumnName("Image");
         });
 
         modelBuilder.Entity<RecipeIngredient>(entity =>

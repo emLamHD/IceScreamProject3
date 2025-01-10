@@ -34,4 +34,7 @@ public partial class Product
 
     [DataType(DataType.DateTime, ErrorMessage = "Định dạng thời gian không hợp lệ")]
     public DateTime? CreatedAt { get; set; }
+
+    [StringLength(255, ErrorMessage = "Đường dẫn hình ảnh không được vượt quá 255 ký tự")]
+    public string? Image { get; set; }
 }
