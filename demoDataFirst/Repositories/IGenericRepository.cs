@@ -6,7 +6,7 @@ namespace demoDataFirst.Repositories
     {
         IEnumerable<T> GetAll();
         T GetById(object id);
-        IEnumerable<T> Find(Expression<Func<T, bool>> predicate);
+        Task<IEnumerable<T>> Find(Expression<Func<T, bool>> predicate);
         Task AddAsync(T entity);
         Task SaveAsync();
         Task UpdateAsync(T entity);

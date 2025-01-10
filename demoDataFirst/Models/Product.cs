@@ -1,8 +1,9 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace demoDataFirst.Models;
-
+[Table("products")]
 public partial class Product
 {
     [Key]
@@ -34,4 +35,7 @@ public partial class Product
 
     [DataType(DataType.DateTime, ErrorMessage = "Định dạng thời gian không hợp lệ")]
     public DateTime? CreatedAt { get; set; }
+
+    // Thêm navigation property
+    public ICollection<ProductImage> ProductImages { get; set; }
 }

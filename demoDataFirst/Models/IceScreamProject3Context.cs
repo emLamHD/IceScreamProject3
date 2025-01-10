@@ -31,6 +31,8 @@ public partial class IceScreamProject3Context : DbContext
 
     public virtual DbSet<Transaction> Transactions { get; set; }
 
+    public virtual DbSet<ProductImage> ProductImages { get; set; }
+
     public virtual DbSet<User> Users { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -181,6 +183,33 @@ public partial class IceScreamProject3Context : DbContext
             entity.Property(e => e.Avatar)
                 .HasMaxLength(255);
         });
+
+        modelBuilder.Entity<ProductImage>(entity =>
+        {
+            entity.HasKey(e => e.ImageId);
+
+            entity.ToTable("ProductImages");
+
+            entity.Property(e => e.ImageId)
+                .HasColumnName("ImageID")
+                .ValueGeneratedOnAdd(); // Đảm bảo rằng ImageId tự động tăng
+
+            entity.Property(e => e.ProductId)
+                .HasColumnName("ProductID")
+                .IsRequired(); // Đảm bảo ProductId là bắt buộc
+
+            entity.Property(e => e.ImageUrl)
+                .HasMaxLength(255) // Đặt độ dài tối đa cho ImageUrl
+                .IsRequired(); // Đảm bảo ImageUrl không thể null
+
+            // Nếu bạn muốn định nghĩa mối quan hệ giữa Product và ProductImage (nếu có ForeignKey)
+            entity.HasOne(p => p.Product)
+                .WithMany(p => p.ProductImages)
+                .HasForeignKey(e => e.ProductId)
+                .OnDelete(DeleteBehavior.Cascade);
+            // Xóa ảnh khi sản phẩm bị xóa
+        });
+
 
 
         OnModelCreatingPartial(modelBuilder);

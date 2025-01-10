@@ -25,10 +25,11 @@ namespace demoDataFirst.Repositories
             return _dbSet.Find(id);
         }
 
-        public IEnumerable<T> Find(Expression<Func<T, bool>> predicate)
+        public async Task<IEnumerable<T>> Find(Expression<Func<T, bool>> predicate)
         {
-            return _dbSet.Where(predicate).ToList();
+            return await _dbSet.Where(predicate).ToListAsync(); // Trả về danh sách các thực thể
         }
+
 
         public async Task AddAsync(T entity)
         {
@@ -60,6 +61,7 @@ namespace demoDataFirst.Repositories
         {
             return await _dbSet.FirstOrDefaultAsync(predicate);
         }
+
 
     }
 }
